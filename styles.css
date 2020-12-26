@@ -154,6 +154,7 @@
     .galeria__img .img {
         width: 50%;
         opacity: .1;
+        transition: .5s;
     }
     
     .img.active {
@@ -233,5 +234,103 @@
         padding: 2rem;
         text-align: center;
         font-weight: bold;
+    }
+}
+
+@media screen and (min-width:625px){
+
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .more {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .logotipo {
+        width: 14rem;
+        height: 14rem;
+    }
+
+     .titulo {
+         font-size: 5rem;
+     }
+
+     .tarjetas{
+         width: 100%;
+         justify-content: space-evenly;
+     }
+
+     .tarjeta{
+         width: 40%;
+     }
+
+     .galeria__img .img{
+         width: 33%;
+     }
+}
+
+@media screen and (min-width:850px){
+    .icon {
+        display: none;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header{
+        width: 100%;
+        height: auto;
+        position: static;
+        background: #222222;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        width: 50%;
+        padding: 1.5rem;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .tarjetas {
+        width: 80%;
+    }
+
+    .tarjeta {
+        width: 24%;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .galeria{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .galeria__img .img{
+        width: 20%;
+        opacity: 1;
+    }
+
+    aside {
+        position: static;
+        width: 100%;
     }
 }
