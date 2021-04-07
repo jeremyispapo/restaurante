@@ -19,7 +19,6 @@ const icons = window.matchMedia('screen and (max-width: 850px)')
             btnGaleria.addEventListener('click', mostrar);
             more.addEventListener('click', aside);
         } else {
-            alert('adios');
             burgerButtom.removeEventListener('click', mostrar)
             btnInicio.removeEventListener('click', mostrar);
             btnMenu.removeEventListener('click', mostrar);
